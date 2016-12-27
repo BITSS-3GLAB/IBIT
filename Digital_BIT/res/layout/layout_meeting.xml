@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 会议概要 -->
+
+    <RelativeLayout
+        android:id="@+id/meeting_info_outline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:id="@+id/left"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/day_of_week"
+            android:orientation="vertical"
+            android:paddingLeft="8dp" >
+
+            <TextView
+                android:id="@+id/meeting_week"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="MON"
+                android:textColor="@color/font_5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/meeting_day"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="24th"
+                android:textColor="@color/font_6"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/meeting_month"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="Jun"
+                android:textColor="@color/font_6"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/left"
+            android:layout_alignTop="@+id/left"
+            android:layout_toLeftOf="@+id/btn_set_remind"
+            android:layout_toRightOf="@+id/left"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/meeting_title"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_issue_grey"
+                android:drawablePadding="8.0dp"
+                android:gravity="center|left"
+                android:singleLine="true"
+                android:text="学科评估工作会"
+                android:textColor="@color/font_2"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/meeting_time"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_time_grey"
+                android:drawablePadding="8.0dp"
+                android:gravity="center|left"
+                android:singleLine="true"
+                android:text="14:30"
+                android:textColor="@color/font_2"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/meeting_place"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_location_grey"
+                android:drawablePadding="8.0dp"
+                android:gravity="center|left"
+                android:singleLine="true"
+                android:text="中教308"
+                android:textColor="@color/font_2"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_set_remind"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:scaleType="center"
+            android:src="@drawable/btn_meeting_remind_style" />
+    </RelativeLayout>
+
+    <!-- 会议详情 -->
+
+    <LinearLayout
+        android:id="@+id/meeting_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_bg"
+        android:minHeight="80dp"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingRight="10dp"
+        android:paddingTop="8dp" >
+
+        <TextView
+            android:id="@+id/meeting_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="6.0dp"
+            android:paddingLeft="103dp"
+            android:paddingTop="6.0dp"
+            android:text="议会人员，所有教职工"
+            android:textColor="@color/font_2"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/meeting_detail_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_people_grey"
+            android:drawablePadding="10.0dp"
+            android:paddingLeft="80dp"
+            android:text="议会人员，所有教职教职教职教职教职教职教职教职教职工"
+            android:textColor="@color/font_2"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 分组的名字和分组下的个数 -->
+    <string-array name="group_name">
+        <item>学生宿舍</item>
+        <item>学生生活区</item>
+        <item>教学用楼</item>
+        <item>学院楼</item>
+        <item>机关单位</item>
+        <item>其他</item>
+        <item>生活助手</item>
+    </string-array>
+    <string-array name="group_num">
+        <item>18</item>
+        <item>29</item>
+        <item>15</item>
+        <item>21</item>
+        <item>38</item>
+        <item>6</item>
+        <item>19</item>
+    </string-array>
+    <string-array name="lxgroup_name">
+        <item>学生宿舍</item>
+        <item>学生生活区</item>
+        <item>教学用楼</item>
+        <item>学院楼</item>
+       
+    </string-array>
+    <string-array name="lxgroup_num">
+        <item>12</item>
+        <item>9</item>
+        <item>10</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

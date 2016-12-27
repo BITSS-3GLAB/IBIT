@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/drag_list_item_text"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/bg_lost_found"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:shadowColor="#000000"
+        android:shadowDy="-1"
+        android:text="已订阅"
+        android:textColor="@color/font_5"
+        android:textSize="16sp" />
+
+</LinearLayout>

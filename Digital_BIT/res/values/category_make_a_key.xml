@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="make_key_name">
+        <item>配钥匙-1</item>
+        <item>配钥匙-2</item>
+        <item>配钥匙-3</item>
+        <item>配钥匙-4</item>
+        <item>配钥匙-5</item>
+    </string-array>
+    <string-array name="make_key_address">
+        <item>西篮球场西南角</item>
+        <item>西篮球场东南角</item>
+        <item>11号楼东南角</item>
+        <item>8号学生公寓东面</item>
+        <item>12号学生公寓东面</item>
+    </string-array>
+    <string-array name="make_key_latitude">
+        <item>39.963967</item>
+        <item>39.964029</item>
+        <item>39.963995</item>
+        <item>39.965903</item>
+        <item>39.966172</item>
+    </string-array>
+    <string-array name="make_key_longitude">
+        <item>116.319343</item>
+        <item>116.320188</item>
+        <item>116.321203</item>
+        <item>116.319002</item>
+        <item>116.319954</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#00000000"
+	android:orientation="vertical">
+    <ImageView 
+    	android:id="@+id/newspicturedialogview"
+    	android:layout_height="wrap_content" 
+    	android:src="@android:drawable/sym_def_app_icon" 
+    	android:layout_width="fill_parent" 
+    	android:layout_centerInParent="true"
+    	>
+    </ImageView>
+    <Button 
+    	android:layout_height="fill_parent" 
+    	android:id="@+id/newspicturecancelbutton" 
+    	android:layout_width="fill_parent" 
+    	android:background="#00000000"
+    >
+    </Button>
+	
+</RelativeLayout>

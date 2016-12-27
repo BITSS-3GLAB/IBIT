@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" 
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp">
+
+    <ImageView
+        android:id="@+id/lf_img"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/uil_ic_empty" />
+
+    <TextView
+        android:id="@+id/lf_describe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lf_img"
+        android:padding="4dp"
+        android:text="西昨天在信息楼4008捡到的小东西昨天在信息楼4008捡到的小东西"
+        android:textColor="@color/font_2"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lf_describe"
+        android:background="@color/bg_lost_found"
+        android:orientation="vertical"
+        android:padding="4dp" >
+
+        <TextView
+            android:id="@+id/lf_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bg_time"
+            android:drawablePadding="4dp"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:text="2013-09-10"
+            android:textColor="@color/font_2"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/lf_place"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:drawableLeft="@drawable/bg_location"
+            android:drawablePadding="4dp"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:text="信息楼"
+            android:textColor="@color/font_2"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/lf_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:drawableLeft="@drawable/bg_phone"
+            android:drawablePadding="4dp"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:text="13810234562"
+            android:textColor="@color/font_2"
+            android:textSize="13sp"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+
+</RelativeLayout>

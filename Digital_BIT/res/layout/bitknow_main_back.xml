@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/bitknow_main_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="center"
+            android:src="@drawable/bg_navi_back_style" />
+
+        <TextView
+            android:id="@+id/know"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="知道"
+            android:textColor="@color/font_1"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:id="@+id/bitknow_add"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:scaleType="center"
+                android:src="@drawable/bitknow_add" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bitknow_message"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/bitknow_add"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:scaleType="center"
+                android:src="@drawable/bitknow_message" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

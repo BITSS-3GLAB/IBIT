@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="none" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.bitss.Digital_BIT.View.HorizontalListView
+            android:id="@+id/h_scroll"
+            android:layout_width="wrap_content"
+            android:layout_height="120dip"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="20dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="20dip" />
+
+        <ImageView
+            android:id="@+id/top_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/h_scroll"
+            android:src="#D4D4D4" />
+
+        <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:layout_below="@+id/top_bar"
+            android:background="@drawable/btn_item_style" >
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:text="标  题"
+                android:textColor="@color/font_2"
+                android:textSize="20sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/tv_title"
+                android:background="@null"
+                android:gravity="center|left"
+                android:hint="商品品牌型号等，至少6字"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:singleLine="true"
+                android:textColor="@color/font_2"
+                android:textSize="16sp" >
+            </EditText>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:src="#D4D4D4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_content"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:layout_below="@+id/rl_title"
+            android:background="@drawable/btn_item_style" >
+
+            <TextView
+                android:id="@+id/tv_des"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:text="描  述"
+                android:textColor="@color/font_2"
+                android:textSize="20sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/iv_arrow"
+                android:layout_toRightOf="@+id/tv_des"
+                android:background="@null"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:hint="物品状况亮点等，至少10字"
+                android:paddingLeft="20dp"
+                android:singleLine="true"
+                android:textColor="@color/font_2"
+                android:textSize="16sp" >
+            </EditText>
+
+            <ImageView
+                android:id="@+id/iv_arrow"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/item_right_arrow" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:src="#D4D4D4" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/sencond_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_content"
+            android:layout_marginTop="30dp"
+            android:src="#D4D4D4" />
+
+        <RelativeLayout
+            android:id="@+id/rl_price"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:layout_below="@+id/sencond_bar"
+            android:background="@drawable/btn_item_style" >
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:text="价  格"
+                android:textColor="@color/font_2"
+                android:textSize="20sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_price"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/tv_price"
+                android:background="@null"
+                android:gravity="center|left"
+                android:inputType="numberDecimal"
+                android:paddingLeft="20dp"
+                android:textColor="@color/font_2"
+                android:textSize="16sp" >
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/et_price"
+                android:gravity="center|left"
+                android:text="元"
+                android:textColor="@color/font_6"
+                android:textSize="16sp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:src="#D4D4D4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_are"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:layout_below="@+id/rl_price"
+            android:background="@drawable/btn_item_style" >
+
+            <TextView
+                android:id="@+id/tv_square"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:text="区  域"
+                android:textColor="@color/font_2"
+                android:textSize="20sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/et_square"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:layout_toRightOf="@+id/tv_square"
+                android:background="@drawable/campus_back"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="中关村校区"
+                android:textColor="@color/location_normal"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignRight="@+id/et_square"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/nav_more" />
+
+            <TextView
+                android:id="@+id/tv_more_info"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@+id/et_square"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="详细地址"
+                android:singleLine="true"
+                android:textColor="@color/font_2"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/item_right_arrow" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:src="#D4D4D4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_classify"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:layout_below="@+id/rl_are"
+            android:background="@drawable/btn_item_style" >
+
+            <TextView
+                android:id="@+id/tv_classify"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:text="分  类"
+                android:textColor="@color/font_2"
+                android:textSize="20sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/et_classify"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_margin="8dp"
+                android:layout_toRightOf="@+id/tv_classify"
+                android:background="@drawable/campus_back"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="全部"
+                android:textColor="@color/location_normal"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignRight="@+id/et_classify"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/nav_more" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:src="#D4D4D4" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_commit"
+            android:layout_width="180dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/rl_classify"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_photo_style"
+            android:text="发   布"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>

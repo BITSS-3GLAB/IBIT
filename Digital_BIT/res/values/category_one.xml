@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="category_one_name">
+        <item>大学生公寓1号楼(新1)</item>
+        <item>1号学生宿舍楼</item>
+        <item>大学生公寓2号楼(新2)</item>
+        <item>2号教工公寓</item>
+        <item>3号学生宿舍楼</item>
+        <item>4号教工公寓</item>
+        <item>大学生公寓5号楼(新5)</item>
+        <item>大学生公寓6号楼(新6)</item>
+        <item>5号学生宿舍楼</item>
+        <item>6号学生宿舍楼</item>
+        <item>7号学生宿舍楼</item>
+        <item>8号教工公寓</item>
+        <item>11号学生宿舍楼</item>
+        <item>12号学生宿舍楼</item>
+        <item>13号学生宿舍楼</item>
+        <item>14号学生宿舍楼(留学生公寓)</item>
+        <item>15号学生宿舍楼</item>
+        <item>16号学生宿舍楼</item>
+    </string-array>
+    <string-array name="category_one_address">
+        <item>大学生公寓1号楼(新一)</item>
+        <item>大学生公寓2号楼</item>
+        <item>大学生公寓5号楼</item>
+        <item>大学生公寓6号楼</item>
+        <item>2号宿舍楼</item>
+        <item>4号宿舍楼</item>
+        <item>10号宿舍楼</item>
+        <item>1号学生宿舍楼</item>
+        <item>3号学生宿舍楼</item>
+        <item>7号学生宿舍楼</item>
+        <item>8号学生宿舍楼</item>
+        <item>11号学生宿舍公寓</item>
+        <item>12号学生宿舍楼</item>
+        <item>13号学生宿舍楼</item>
+        <item>14号学生宿舍楼</item>
+        <item>15号学生宿舍楼</item>
+        <item>16号学生宿舍楼</item>
+        <item>16号学生宿舍楼</item>
+    </string-array>
+    <string-array name="category_one_latitude">
+        <item>39.963610</item>
+        <item>39.963520</item>
+        <item>39.963760</item>
+        <item>39.963125</item>
+        <item>39.963125</item>
+        <item>39.963125</item>
+        <item>39.964538</item>
+        <item>39.964230</item>
+        <item>39.964030</item>
+        <item>39.964430</item>
+        <item>39.965888</item>
+        <item>39.966208</item>
+        <item>39.964050</item>
+        <item>39.966206</item>
+        <item>39.965508</item>
+        <item>39.965180</item>
+        <item>39.965969</item>
+        <item>39.964230</item>
+    </string-array>
+    <string-array name="category_one_longitude">
+        <item>116.321755</item>
+        <item>116.317950</item>
+        <item>116.316715</item>
+        <item>116.317050</item>
+        <item>116.318750</item>
+        <item>116.320915</item>
+        <item>116.316375</item>
+        <item>116.317554</item>
+        <item>116.318750</item>
+        <item>116.318750</item>
+        <item>116.318750</item>
+        <item>116.318750</item>
+        <item>116.320915</item>
+        <item>116.319750</item>
+        <item>116.318750</item>
+        <item>116.318650</item>
+        <item>116.318080</item>
+        <item>116.318080</item>
+    </string-array>
+    <string-array name="lxcategory_one_name">
+        <item>北京理工大学良乡南校区博雅园</item>
+        <item>北京理工大学良乡南校区至善园</item>
+        <item>北京理工大学良乡校区静园D幢</item>
+        <item>北京理工大学良乡校区静园B幢</item>
+        <item>北京理工大学良乡校区静园A幢</item>
+        <item>北京理工大学良乡校区静园C幢</item>
+        <item>北京理工大学良乡校区疏桐园B幢</item>
+        <item>北京理工大学良乡校区疏桐园A幢</item>
+        <item>北京理工大学良乡校区疏桐园C幢</item>
+        <item>北京理工大学良乡校区疏桐园D幢</item>
+        <item>北京理工大学良乡校区疏桐园E幢</item>
+        <item>北京理工大学良乡北校区留学生公寓</item>
+        
+    </string-array>
+    <string-array name="lxcategory_one_address">
+        <item>阳光北大街附近</item>
+        <item>阳光北大街附近</item>
+        <item>北京市房山区北京理工大学良乡校区静园D幢</item>
+        <item>北京市房山区北京理工大学良乡校区静园B幢</item>
+        <item>北京市房山区北京理工大学良乡校区静园A幢	</item>
+        <item>北京市房山区北京理工大学良乡校区静园C幢</item>
+        <item>北京市房山区北京理工大学良乡校区疏桐园B幢</item>
+        <item>北京市房山区北京理工大学良乡校区疏桐园A幢</item>
+        <item>北京市房山区北京理工大学良乡校区疏桐园C幢</item>
+        <item>北京市房山区北京理工大学良乡校区疏桐园D幢</item>
+        <item>北京市房山区北京理工大学良乡校区疏桐园E幢</item>
+        <item>北京市房山区良乡东区十六号路</item>
+      
+    </string-array>
+    <string-array name="lxcategory_one_latitude">
+        <item>39.732354</item>
+        <item>39.732388</item>
+        <item>39.733436</item>
+        <item>39.740045</item>
+        <item>39.737999</item>
+        <item>39.739650</item>
+        <item>39.735544</item>
+        <item>39.735177</item>
+        <item>39.736122</item>
+        <item>39.736466</item>
+        <item>39.736812</item>
+        <item>39.743562</item>
+    </string-array>
+    <string-array name="lxcategory_one_longitude">
+        <item>116.175445</item>
+        <item>116.174240</item>
+        <item>116.174378</item>
+        <item>116.174731</item>
+        <item>116.174552</item>
+        <item>116.174645</item>
+        <item>116.174105</item>
+        <item>116.174116</item>
+        <item>116.174120</item>
+        <item>116.174120</item>
+        <item>116.174084</item>
+        <item>116.177647</item>
+    </string-array>
+
+</resources>
