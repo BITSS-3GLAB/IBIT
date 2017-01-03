@@ -12,6 +12,5 @@ gradlew.bat
 .settings
 .project
 .classpath
-*.properties
 /bin
 /gen
