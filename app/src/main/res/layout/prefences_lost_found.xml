@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:id="@+id/edt_des"
+        android:background="#ffffff"
+        android:key="edit"
+        android:title="描述" />
+
+</PreferenceScreen>

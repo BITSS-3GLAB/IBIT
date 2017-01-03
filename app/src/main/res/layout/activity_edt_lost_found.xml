@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFCFCF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:id="@+id/iv_navi_back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="6dp"
+            android:scaleType="center"
+            android:src="@drawable/bg_navi_back_style" />
+
+        <TextView
+            android:id="@+id/tv_navi_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/font_2"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_navi_save"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:scaleType="center"
+            android:src="@drawable/nvg_accept_style" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/include_des"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        layout="@layout/layout_edt_lost_found" />
+
+    <include
+        android:id="@+id/include_place"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="0.7dp"
+        layout="@layout/layout_edt_lost_found" />
+
+    <include
+        android:id="@+id/include_phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="0.7dp"
+        layout="@layout/layout_edt_lost_found_phone" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        layout="@layout/layout_edt_lost_found_photo" />
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 字体颜色 -->
+    <color name="font_1">#333333</color>
+    <color name="font_2">#333333</color>
+    <color name="font_3">#939393</color>
+    <color name="font_4">#31C5AB</color>
+ <!-- 绿色的时间 -->
+    <color name="font_5">#EE8175</color>
+ <!-- 会议的红字 -->
+    <color name="font_6">#B3B3B3</color>
+ <!-- 会议的灰色字 -->
+    <color name="font_7">#D3D3D3</color>
+ <!-- 会议的灰色字 -->
+
+
+    <!-- 主体绿色 -->
+    <color name="bg_grey">#31C5AB</color>
+    <color name="bg_lost_found">#EEEEEE</color>
+    <color name="grey">#FF4C4B4B</color>
+    <color name="bule">#FF3D8CB8</color>
+    <color name="orange">#FFE7703C</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#b1bb62</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- 地图路线导航按下效果 -->
+    <color name="location_normal">#31C5AB</color>
+    <color name="location_select">#89EDDA</color>
+    <color name="location_select_2">#5ED0BA</color>
+    <color name="item_pressed">#D4D4D4</color>
+
+</resources>

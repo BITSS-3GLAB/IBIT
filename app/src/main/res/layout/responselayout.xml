@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/responserelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <include
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navi" />
+
+    <EditText
+        android:id="@+id/responseedit"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/title_bar"
+        android:background="#ffffff"
+        android:gravity="left"
+        android:hint="留下您的联系方式以便我们回复"
+        android:minLines="10"
+        android:padding="8dp"
+        android:textColor="@color/font_2"
+        android:textSize="14sp" >
+
+        <requestFocus>
+        </requestFocus>
+    </EditText>
+
+    <ImageView
+        android:id="@+id/clear_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/clear_bg" />
+
+</RelativeLayout>

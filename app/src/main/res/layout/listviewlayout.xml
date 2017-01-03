@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/listviewlayout"
+ 	xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="fill_parent"
+ 	android:layout_height="80dp"
+ 	android:background="#ffffff"
+ 	>
+ 	<Button
+ 		android:id = "@+id/newslistbackground"
+ 		android:layout_width = "fill_parent"
+ 		android:layout_height = "80dp"
+ 		android:background="@drawable/news_listcell">
+ 	</Button>
+ 	<Button
+ 		android:id="@+id/newslistnewtag"
+ 		android:layout_height="30dp"
+ 		android:layout_width="30dp"
+ 		android:layout_alignParentRight="true"
+ 		android:background="@drawable/news_newtag">
+ 	</Button>
+ 	<TextView
+ 		android:id="@+id/newslisttitle"
+ 		android:layout_marginTop="5dp"
+ 		android:layout_marginLeft="10dp"
+ 		android:singleLine="true"
+ 		android:layout_width="250dp"
+ 		android:layout_height="20dp"
+ 		android:layout_marginBottom="5dp"
+ 		android:textSize="16dp"
+ 		android:text="会议开头"
+ 		>
+ 	</TextView>
+ 	<TextView
+ 		android:id="@+id/newslistcontent"
+ 		android:maxLines="2"
+ 		android:layout_marginLeft="10dp"
+ 		android:layout_below="@+id/newslisttitle"
+ 		android:layout_height="wrap_content"
+ 		android:layout_width="270dp"
+ 		android:textSize="12dp"
+ 		>
+ 	</TextView>
+ 	<TextView
+ 		android:id="@+id/newslistdate"
+ 		android:layout_below="@+id/newslistcontent"
+ 		android:layout_height="15dp"
+ 		android:layout_alignRight="@+id/newslistcontent"
+ 		android:layout_width="wrap_content"
+ 		android:textSize="9dp"
+        android:textColor="#b1bb62"
+	>
+ 	</TextView>
+</RelativeLayout>

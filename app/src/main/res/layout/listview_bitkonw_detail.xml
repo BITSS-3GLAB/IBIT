@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center" >
+
+        <com.makeramen.RoundedImageView
+            android:id="@+id/bit_know_user_imageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="6dip"
+            android:layout_marginTop="6dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon"
+            app:riv_corner_radius="30dip" />
+
+        <TextView
+            android:id="@+id/bit_know_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:layout_marginTop="6dip"
+            android:layout_toRightOf="@+id/bit_know_user_imageView"
+            android:text="超能天然皂粉" />
+
+        <TextView
+            android:id="@+id/bit_konw_answer_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bit_know_user_name"
+            android:layout_marginLeft="6dip"
+            android:layout_toRightOf="@+id/bit_know_user_imageView"
+            android:text="刚刚"
+            android:textColor="@color/font_3"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/bitknow_listview_answer_zan_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="14dip"
+            android:text="1个赞" />
+
+        <ImageView
+            android:id="@+id/bitknow_listview_answernumber_drawable"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="3dip"
+            android:layout_marginTop="12dip"
+            android:layout_toLeftOf="@+id/bitknow_listview_answer_zan_number"
+            android:src="@drawable/icon_bitknow_good" />
+
+        <ImageView
+            android:id="@+id/bitknow_listview_use_drawable"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="12dip"
+            android:layout_toLeftOf="@+id/bitknow_listview_answernumber_drawable"
+            android:src="@drawable/icon_bitknow_use"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/bit_konw_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:text="就是个问题罢了就是个问题罢了就是个问题罢了就是个问题罢了就是个问题罢了就是个问题罢了就是个问题罢了就是个问题罢了"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:id="@+id/bit_know_answerusedeletelinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/bit_know_answeruse"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#eeeeee"
+            android:gravity="center"
+            android:text="采纳"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="0.5dip"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/bit_know_answerdelete"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#eeeeee"
+            android:gravity="center"
+            android:text="删除"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>

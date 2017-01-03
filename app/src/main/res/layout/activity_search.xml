@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main" 
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/zgc"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_margin="6dp"
+            android:background="@color/bg_grey"
+            android:paddingLeft="6dp"
+            android:paddingTop="6dp"
+            android:text="中关村"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <ExpandableListView
+            android:id="@+id/search_list"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/zgc"
+            android:layout_margin="6dp"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:dividerHeight="0.7dp" >
+        </ExpandableListView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lx"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_margin="6dp"
+            android:background="@color/bg_grey"
+            android:paddingLeft="6dp"
+            android:paddingTop="6dp"
+            android:text="良乡"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <ExpandableListView
+            android:id="@+id/lxsearch_list"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_below="@id/lx"
+            android:layout_margin="6dp"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:dividerHeight="0.7dp" >
+        </ExpandableListView>
+    </RelativeLayout>
+
+</LinearLayout>

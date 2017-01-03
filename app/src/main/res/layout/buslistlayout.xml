@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buslistlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:minHeight="70dp" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/bustimestart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="06:40"
+            android:textColor="@color/font_5"
+            android:textSize="18sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/busplacestart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="中关村"
+            android:textColor="@color/font_2"
+            android:textSize="12sp" >
+        </TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/businformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="50座/1辆"
+            android:textColor="@color/font_6"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/busforwardview"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/businformation"
+            android:scaleType="centerInside"
+            android:src="@drawable/busforward" />
+
+        <ImageView
+            android:id="@+id/buspeople1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/busforwardview"
+            android:layout_alignRight="@+id/busforwardview"
+            android:scaleType="centerInside"
+            android:src="@drawable/buswaitpeople1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/bustimeend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="07:30"
+            android:textColor="@color/font_5"
+            android:textSize="18sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/busplaceend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="良 乡"
+            android:textColor="@color/font_2"
+            android:textSize="12sp" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

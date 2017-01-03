@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="copy_name">
+        <item>打印室-1</item>
+		<item>打印室-2</item>
+		<item>打印室-3</item>
+		<item>打印室-4</item>
+		<item>打印室-5</item>
+		<item>打印室-6</item>
+		<item>打印室-7</item>		  
+    </string-array>
+    <string-array name="copy_address">
+        <item>学生综合服务楼1层</item>
+        <item>南门北面</item>
+        <item>6号学生公寓东面（小卖部里）</item>
+        <item>新食堂东南角（小卖部里）</item>
+        <item>4号宿舍楼1层</item>
+        <item>信息教学楼6层</item>
+        <item>邮局</item>
+    </string-array>
+    <string-array name="copy_latitude">
+        <item>39.965709</item>
+        <item>39.963442</item>
+        <item>39.964499</item>		
+        <item>39.963421</item>		
+        <item>39.963103</item>
+        <item>39.963658</item>
+        <item>39.966221</item>
+    </string-array>
+    <string-array name="copy_longitude">
+        <item>116.318041</item>
+        <item>116.317672</item>
+        <item>116.319056</item>
+        <item>116.320053</item>		
+        <item>116.320780</item>
+        <item>116.323090</item>
+        <item>116.318283</item>
+    </string-array>
+
+</resources>

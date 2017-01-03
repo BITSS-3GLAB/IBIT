@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="category_four_name">
+        <item>宇航学院</item>
+        <item>机电学院</item>
+        <item>机械与车辆学院</item>
+        <item>光电学院</item>
+        <item>信息与电子学院</item>
+        <item>自动化学院</item>
+        <item>计算机学院</item>
+        <item>软件学院</item>
+        <item>材料学院</item>
+        <item>化工与环境学院</item>
+        <item>生命学院</item>
+        <item>理学院</item>
+        <item>管理与经济学院</item>
+        <item>教育研究院</item>
+        <item>人文与社会科学学院</item>
+        <item>法学院</item>
+        <item>外国语学院</item>
+        <item>设计与艺术学院</item>
+        <item>继续教育学院</item>
+        <item>珠海学院</item>
+        <item>秦皇岛分校</item>
+    </string-array>
+    <string-array name="category_four_address">
+        <item>3号教学楼3层</item>
+        <item>3号教学楼2层</item>
+        <item>1号教学楼2层</item>
+        <item>中心教学楼11层</item>
+        <item>4号教学楼2层</item>
+        <item>6号教学楼3层</item>
+        <item>中心教学楼8层</item>
+        <item>软件楼</item>
+        <item>5号教学楼5层</item>
+        <item>5号教学楼10层</item>
+        <item>5号教学楼7层</item>
+        <item>中心教学楼6层</item>
+        <item>主楼3层</item>
+        <item>中心教学楼4层</item>
+        <item>中心教学楼13层</item>
+        <item>中心教学楼14层</item>
+        <item>中心教学楼13层</item>
+        <item>中心教学楼11层</item>
+        <item>继续教育楼</item>
+        <item>10号办公楼4层</item>
+        <item>10号办公楼1层</item>
+    </string-array>
+    <string-array name="category_four_latitude">
+        <item>39.965869</item>
+        <item>39.965869</item>
+        <item>39.966069</item>
+        <item>39.965068</item>
+        <item>39.964558</item>
+        <item>39.970347</item>
+        <item>39.965068</item>
+        <item>39.967895</item>
+        <item>39.964708</item>
+        <item>39.964708</item>
+        <item>39.964708</item>
+        <item>39.965068</item>
+        <item>39.965408</item>
+        <item>39.965068</item>
+        <item>39.965068</item>
+        <item>39.965068</item>
+        <item>39.965068</item>
+        <item>39.965068</item>
+        <item>39.963250</item>
+        <item>39.966206</item>
+        <item>39.966206</item>
+    </string-array>
+    <string-array name="category_four_longitude">
+        <item>116.324840</item>
+        <item>116.324840</item>
+        <item>116.327840</item>
+        <item>116.323790</item>
+        <item>116.325240</item>
+        <item>116.317050</item>
+        <item>116.323790</item>
+        <item>116.317390</item>
+        <item>116.328590</item>
+        <item>116.328590</item>
+        <item>116.328590</item>
+        <item>116.323790</item>
+        <item>116.328190</item>
+        <item>116.323790</item>
+        <item>116.323790</item>
+        <item>116.323790</item>
+        <item>116.323790</item>
+        <item>116.323790</item>
+        <item>116.317950</item>
+        <item>116.320572</item>
+        <item>116.321022</item>
+    </string-array>
+    
+    
+    
+    <string-array name="lxcategory_four_name">
+        <item>北京理工大学良乡南校区基础教育学院</item>
+        <item>北京理工大学良乡南校区数学与统计学院</item>
+        <item>北京理工大学良乡北校区行政楼</item>
+       
+    </string-array>
+    
+    
+    <string-array name="lxcategory_four_address">
+        <item>北京理工大学良乡南校区基础教育学院</item>
+        <item>良乡东区十六号路附近</item>
+        <item>北京市房山区</item>
+        
+    </string-array>
+    <string-array name="lxcategory_four_latitude">
+        <item>39.732388</item>
+        <item>39.735170</item>
+        <item>39.739276</item>
+       
+    </string-array>
+    <string-array name="lxcategory_four_longitude">
+        <item>116.174240</item>
+        <item>116.178211</item>
+        <item>116.176792</item>
+       
+    </string-array>
+
+</resources>
