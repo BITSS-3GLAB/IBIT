@@ -1,8 +1,8 @@
 package com.bitss.Digital_BIT.BitKnow;
 
-import java.util.ArrayList;
 import java.util.List;
 
+import com.bitss.Digital_BIT.BitKnow.model.BitKnowMessageData;
 import com.bitss.Digital_BIT.R;
 import android.content.Context;
 import android.view.LayoutInflater;

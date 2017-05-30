@@ -332,7 +332,7 @@
 
         <!-- 北理知道 -->
         <activity
-            android:name=".BitKnow.BitKonwDetailActivity"
+            android:name=".BitKnow.BitKnowDetailActivity"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateUnchanged|adjustPan" >
@@ -344,7 +344,7 @@
             android:windowSoftInputMode="stateUnchanged|adjustPan" >
         </activity>
         <activity
-            android:name=".BitKnow.BitKnowMessageActivity"
+            android:name=".BitKnow.PersonalQuestionActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar" >
         </activity>
@@ -353,7 +353,7 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name=".BitKnow.KnowDiscribeQActivity"
+            android:name=".BitKnow.QuestionDescribeActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateUnchanged|adjustPan" >
         </activity>

@@ -36,6 +36,10 @@ public class HttpClient {
 		return mHttpClient;
 	}
 
+	public OkHttpClient getOkHttpClient() {
+		return mOkHttpClient;
+	}
+
 	public void get(String url, BaseHttpResponseHandler handler) {
 		Request request = new Request.Builder().url(url).get().build();
 		mOkHttpClient.newCall(request).enqueue(new MyCallback(handler));

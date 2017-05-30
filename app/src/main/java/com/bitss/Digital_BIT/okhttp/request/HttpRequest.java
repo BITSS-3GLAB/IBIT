@@ -38,7 +38,7 @@ public class HttpRequest {
 
 	public static final class Builder {
 		private HttpRequest mRequest;
-		private IHttpRequsetBodyBuilder mBodyBuilder;
+		private IHttpRequestBodyBuilder mBodyBuilder;
 		private List<Parameter> parameters;
 
 		public Builder() {
@@ -67,12 +67,16 @@ public class HttpRequest {
 		}
 
 		public Builder url(String url) {
-			mRequest.url = new StringBuilder().append(Constants.SERVER_URL)
+			String baseUrl = Constants.SERVER_URL;
+			if (baseUrl.endsWith("/")) {
+				baseUrl = baseUrl.substring(0, baseUrl.length() - 1);
+			}
+			mRequest.url = new StringBuilder().append(baseUrl)
 					.append(url).toString();
 			return this;
 		}
 
-		public Builder bodyBuilder(IHttpRequsetBodyBuilder builder) {
+		public Builder bodyBuilder(IHttpRequestBodyBuilder builder) {
 			mBodyBuilder = builder;
 			mBodyBuilder.init();
 			return this;

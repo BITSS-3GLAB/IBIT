@@ -57,7 +57,7 @@
             android:layout_alignParentTop="true"
             android:layout_gravity="center" >
 
-            <ccom.makeramen.roundedimageview.RoundedImageView
+            <com.makeramen.roundedimageview.RoundedImageView
                 android:id="@+id/bitkonwimageView"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
@@ -189,7 +189,7 @@
 
     <TextView
         android:id="@+id/tv_answer_info"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/linBottom"
         android:layout_below="@+id/linTop"

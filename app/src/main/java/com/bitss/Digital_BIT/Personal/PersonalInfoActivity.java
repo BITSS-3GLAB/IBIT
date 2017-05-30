@@ -577,7 +577,7 @@ public class PersonalInfoActivity extends CustomBaseActivity {
 	// }
 	//
 	// holder.txtVw_ObjDescribe.setText((String) thisData.get(position)
-	// .getTime().substring(0, 10));
+	// .getDate().substring(0, 10));
 	// holder.tv_price.setText(thisData.get(position).getPrice()
 	// .toString()
 	// + "元");

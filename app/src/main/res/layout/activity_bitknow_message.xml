@@ -1,36 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-    
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical" >
-        
-        <include
-            android:id="@+id/title_bar"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            layout="@layout/bitknow_message_back">
-        </include>
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
 
-        <com.handmark.pulltorefresh.library.PullToRefreshListView
-            android:id="@+id/bitknow_message_pull_to_refresh_listview"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@android:color/transparent"
-            android:cacheColorHint="#00000000"
-            android:descendantFocusability="blocksDescendants"
-            android:fadingEdge="none"
-            android:fastScrollEnabled="false"
-            android:footerDividersEnabled="false"
-            android:headerDividersEnabled="false"
-            android:listSelector="@android:color/transparent"
-            android:overScrollMode="never"
-            android:smoothScrollbar="true"
-            android:layout_below="@id/title_bar" />
-        
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/bitknow_message_back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    </include>
+
+    <LinearLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/title_bar"
+        android:background="@drawable/box2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:id="@+id/solved_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            >
+
+            <TextView
+                android:id="@+id/solved_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="已解决"
+                android:textColor="@color/font_4"
+                android:textSize="20sp"
+                />
+
+            <ImageView
+                android:id="@+id/solved_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/bottom_bar"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/font_3"
+            />
+
+        <RelativeLayout
+            android:id="@+id/unsolved_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            >
+
+            <TextView
+                android:id="@+id/unsolved_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="未解决"
+                android:textColor="@color/font_3"
+                android:textSize="20sp"
+                />
+
+            <ImageView
+                android:id="@+id/unsolved_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/bottom_bar"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+
     </LinearLayout>
-    
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_layout"
+        />
+
+
 </RelativeLayout>

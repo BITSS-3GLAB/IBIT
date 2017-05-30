@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import com.bitss.Digital_BIT.R;
 import com.bitss.Digital_BIT.BitKnow.BitKnowMainActivity;
-//import com.bitss.Digital_BIT.BitKnow.KnowDiscribeQActivity;
+//import com.bitss.Digital_BIT.BitKnow.QuestionDescribeActivity;
 import com.bitss.Digital_BIT.Bus.BusActivity;
 import com.bitss.Digital_BIT.Location.IBitMapActivity;
 import com.bitss.Digital_BIT.LostFound.LostFoundActivity;
@@ -223,7 +223,7 @@ public class GuideItemView extends LinearLayout {
 			public void onClick(View v) {
 				context.startActivity(new Intent(context, IBitMapActivity.class));
 				// context.startActivity(new
-				// Intent(context,KnowDiscribeQActivity.class));
+				// Intent(context,QuestionDescribeActivity.class));
 			}
 		});
 

@@ -1,4 +1,4 @@
-package com.bitss.Digital_BIT.BitKnow;
+package com.bitss.Digital_BIT.BitKnow.model;
 
 import java.io.Serializable;
 

@@ -7,14 +7,14 @@ public class Constants {
 	// TODO temp data
 	public static final String SP_NAME = "com.bitss.Digital_BIT.preferences";
 //	public final static String SERVER_HOST = "http://1.202.222.148";
-	public final static String SERVER_HOST = "http://192.168.137.1:8080";
+	public final static String SERVER_HOST = "http://139.224.26.165:8080";
 	public final static String TEST_SERVER_STRING  = "http://1.202.222.148/Digital_BIT_Server/";
 //	public final static String SERVER_URL = SERVER_HOST + "/Digital_BIT_Server";
-	public final static String SERVER_URL = SERVER_HOST + "/IBIT";
+	public final static String SERVER_URL = SERVER_HOST + "/IBIT/";
 	public final static String BITKNOWTEST_SERVER_STRING  = "http://10.1.112.218:8080/Digital_BIT_Server/";
 	//	public final static String BITKNOWTEST_CLOUDSERVER_STRING  = "http://10.1.112.218:8080/Digital_BIT_Server/";
-	public final static String BITKNOWTEST_CLOUDSERVER_STRING  = "http://123.57.41.214:8080/Digital_BIT_Server/";
-	public final static String PHTOT_CLOUDSERVER_STRING  = SERVER_URL + "/";
+	public final static String BITKNOWTEST_CLOUDSERVER_STRING  = "http://139.224.26.165:8080/IBIT/";
+	public final static String PHTOT_CLOUDSERVER_STRING  = SERVER_URL;
 	public final static String PHTOT_SERVER_STRING  = "http://10.1.112.218:8080/Digital_BIT_Server";
 
 	// public final static String SERVER_HOST = "http://10.1.151.22";

@@ -37,7 +37,7 @@ public class BaseApplication extends Application {
 	private DataProvider mProvider = null;
 	private ActivityDB mDb = null;
 
-	private Context context = null;
+	private static Context context = null;
 	private File imageLoaderCacheDir = null;
 	public ImageLoaderConfiguration imageLoaderConfiguration = null;
 	private DisplayImageOptions displayImageOptions = null;
@@ -69,6 +69,10 @@ public class BaseApplication extends Application {
 			mDb = ActivityDB.getInstance(this);
 		}
 		return mDb;
+	}
+
+	public static Context getApplcation() {
+		return context;
 	}
 
 	public File getimageLoaderCacheDir() {

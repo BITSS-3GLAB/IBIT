@@ -7,7 +7,7 @@ import okhttp3.MultipartBody;
 import okhttp3.MultipartBody.Builder;
 import okhttp3.RequestBody;
 
-public class DefaultMultiBodyBuilder implements IHttpRequsetBodyBuilder {
+public class DefaultMultiBodyBuilder implements IHttpRequestBodyBuilder {
 
 	private Builder mBuilder;
 

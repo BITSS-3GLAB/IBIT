@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 18
+    compileSdkVersion 25
     buildToolsVersion "25.0.0"
 
     defaultConfig {
         applicationId "com.bitss.Digital_BIT"
-        minSdkVersion 8
-        targetSdkVersion 8
+        minSdkVersion 15
+        targetSdkVersion 19
     }
 
     buildTypes {
@@ -25,6 +25,7 @@ android {
         exclude 'META-INF/NOTICE.txt'
     }
 
+    useLibrary 'org.apache.http.legacy'
 }
 
 repositories {
@@ -40,8 +41,10 @@ dependencies {
     compile(name: 'viewpagerindicator_library', ext: 'aar')
     compile(name: 'tablefixheader_library', ext: 'aar')
     compile(name: 'slidingMenu', ext: 'aar')
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
     compile 'com.makeramen:roundedimageview:2.3.0'
-    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.android.support:support-v4:19.0.0'
     compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
     compile files('libs/baidumapapi_v2_3_1.jar')
     compile files('libs/com.umeng.message.lib.jar')

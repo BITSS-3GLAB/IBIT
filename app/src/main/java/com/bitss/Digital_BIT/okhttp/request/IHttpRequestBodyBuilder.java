@@ -2,7 +2,7 @@ package com.bitss.Digital_BIT.okhttp.request;
 
 import okhttp3.RequestBody;
 
-public interface IHttpRequsetBodyBuilder {
+public interface IHttpRequestBodyBuilder {
 
 	public void init();
 	

@@ -3,7 +3,7 @@ package com.bitss.Digital_BIT.okhttp.request;
 import okhttp3.FormBody.Builder;
 import okhttp3.RequestBody;
 
-public class DefaultFormBodyBuilder implements IHttpRequsetBodyBuilder {
+public class DefaultFormBodyBuilder implements IHttpRequestBodyBuilder {
 
 	private Builder mBuilder;
 

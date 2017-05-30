@@ -82,7 +82,7 @@ public class MyReceiver extends BroadcastReceiver {
 				notification.tickerText = "您可能有错过的会议";
 			}
 
-			notification.setLatestEventInfo(context, name, content, pi);
+//			notification.setLatestEventInfo(context, name, content, pi);
 			NotificationManager notificationManager = (NotificationManager) context
 					.getSystemService(context.NOTIFICATION_SERVICE);
 			notificationManager.notify(Integer.valueOf(id), notification);

@@ -6,7 +6,7 @@ import okhttp3.RequestBody;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class DefaultJsonBodyBuilder implements IHttpRequsetBodyBuilder {
+public class DefaultJsonBodyBuilder implements IHttpRequestBodyBuilder {
 
 	private static final MediaType JSON = MediaType.parse("application/json");
 	private JSONObject json;
